@@ -1,3 +1,5 @@
+#this script will most likely not work on Windows 7
+
 #download LAN profile
 wget https://raw.githubusercontent.com/lovellt/ISE_Config/master/HH_Wired.xml -outfile HH_Wired.xml
 #download WLAN profile
