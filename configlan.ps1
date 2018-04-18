@@ -38,8 +38,8 @@ if ((Get-FileHash .\HH_Wireless.xml -algorithm sha1).Hash -eq "54F4682037F100DDB
     #delete HHA1r
     netsh wlan delete profile name=HHA1r-5g
     
-    #Put HHAr1-Test as the top priority (win10)
-    netsh wlan set profileorder name="HHAr1-Test" interface="Wi-Fi" priority=1
+    #Put HungryHumbleWiFi as the top priority (win10)
+    netsh wlan set profileorder name="HungryHumbleWiFi" interface="Wi-Fi" priority=1
     
     
   }
